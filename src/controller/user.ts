@@ -65,7 +65,6 @@ export class UserController {
   @Del('/:id')
   async deleteUser(@Param('id') id: number): Promise<IGetUserResponse> {
     const _ = await this.userService.deleteUser({ id });
-    console.log(_);
     if (_) {
       return { code: ResponseCode.SUCCESS, message: 'OK', data: null };
     } else {
