@@ -58,4 +58,4 @@ npm run dev
 npm run test
 ```
 The coverage of unit test is 100% as below.
-![Coverage]("./assets/coverage.png")
+![Coverage]("assets/coverage.png")
